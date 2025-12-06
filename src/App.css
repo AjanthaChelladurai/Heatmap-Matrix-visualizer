@@ -1,0 +1,63 @@
+.app-container 
+{
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title 
+{
+  color: #222;
+  margin-bottom: 18px;
+}
+
+.heatmap-wrapper
+ {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  padding: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(245,245,245,0.85));
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.heatmap-canvas
+ {
+  border: 2px solid #444;
+  cursor: pointer;
+  display: block;
+}
+
+.btn 
+{
+  padding: 8px 14px;
+  font-size: 14px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn.secondary 
+{
+  background: #444;
+}
+
+.btn:hover
+ {
+  opacity: 0.95;
+}
+
+.tooltip 
+{
+  position: absolute;
+  background: white;
+  padding: 6px 10px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+}
